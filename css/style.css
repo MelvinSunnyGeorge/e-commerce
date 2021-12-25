@@ -8,7 +8,7 @@
 header{
     position: fixed;
     top:0; left: 0; right:0;
-    background:  #f8f8f8;;
+    background:  #cecece;
     padding:1rem 7%;
     display: flex;
     align-items: center;
@@ -448,4 +448,327 @@ header .icons a:hover{
     font-size: 1.5rem;
     color:var(--black);
     padding: 5PX;
+}
+
+
+
+
+
+/* ----------------               SHOP PAGE               --------------- */
+/* -----          Shop Navigation Bar  ---- */
+.shopnavbar{
+    display: flex;
+    position: fixed;
+    top:83px; left: 0; right:0;
+    left: 0;
+    right: 0;
+    background:  #f8f8f8;
+    padding:1rem 7%;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    font-size: 1.2rem;
+    text-transform: capitalize ;
+    height: 30px;
+}
+.shopnavbar a{
+    font-size: 1.2rem;
+    border-radius: .5rem;
+    padding:.5rem 1.5rem;
+    color:var(--light-color);
+    text-decoration: none;
+}
+.shopnavbar a.active,
+.shopnavbar a:hover{
+    color:black;
+    text-decoration: bold;
+}
+
+
+/* -----          Fish Shop  ---- */
+.fishshop .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+}
+.fishshop{
+    margin: 70px;
+    margin-top: 200px;
+    text-align: center;
+}
+.fishshop .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.fishshop .box-container .box img{
+    height:15rem;
+    width: 15rem;
+    margin:1rem 0;
+}
+.fishshop .box-container .box h3{
+    color:var(--black);
+    font-size: 2.1rem;
+}
+.fishshop .btn{
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #192a56;;
+    background:#192a56; ;
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.fishshop .btn:hover{
+    border: 2px solid #fff;
+}
+
+
+/* -----          Plant Shop  ---- */
+.plantshop .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+}
+.plantshop{
+    margin: 70px;
+    margin-top: 200px;
+    text-align: center;
+}
+.plantshop .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.plantshop .box-container .box img{
+    height:15rem;
+    width: 15rem;
+    margin:1rem 0;
+}
+.plantshop .box-container .box h3{
+    color:var(--black);
+    font-size: 2.1rem;
+}
+.plantshop .btn{
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #192a56;;
+    background:#192a56; ;
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.plantshop .btn:hover{
+    border: 2px solid #fff;
+}
+
+
+/* -----          Crustacean Shop  ---- */
+.crustacean .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+}
+.crustacean{
+    margin: 70px;
+    margin-top: 200px;
+    text-align: center;
+}
+.crustacean .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.crustacean .box-container .box img{
+    height:15rem;
+    width: 15rem;
+    margin:1rem 0;
+}
+.crustacean .box-container .box h3{
+    color:var(--black);
+    font-size: 2.1rem;
+}
+.crustacean .btn{
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #192a56;;
+    background:#192a56; ;
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.crustacean .btn:hover{
+    border: 2px solid #fff;
+}
+
+
+/* -----          Fish Food Shop  ---- */
+.fishfood .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+}
+.fishfood{
+    margin: 70px;
+    margin-top: 200px;
+    text-align: center;
+}
+.fishfood .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.fishfood .box-container .box img{
+    height:15rem;
+    width: 15rem;
+    margin:1rem 0;
+}
+.fishfood .box-container .box h3{
+    color:var(--black);
+    font-size: 2.1rem;
+}
+.fishfood .btn{
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #192a56;;
+    background:#192a56; ;
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.fishfood .btn:hover{
+    border: 2px solid #fff;
+}
+
+
+/* -----          Fish Medicine Shop  ---- */
+.fishmedicine .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+}
+.fishmedicine{
+    margin: 70px;
+    margin-top: 200px;
+    text-align: center;
+}
+.fishmedicine .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.fishmedicine .box-container .box img{
+    height:15rem;
+    width: 15rem;
+    margin:1rem 0;
+}
+.fishfood .box-container .box h3{
+    color:var(--black);
+    font-size: 2.1rem;
+}
+.fishmedicine .btn{
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #192a56;;
+    background:#192a56; ;
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.fishmedicine .btn:hover{
+    border: 2px solid #fff;
+}
+
+
+/* -----          Fish Accessories Shop  ---- */
+.accessories .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:1.5rem;
+}
+.accessories{
+    margin: 70px;
+    margin-top: 200px;
+    text-align: center;
+}
+.accessories .box-container .box{
+    padding:2.5rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.accessories .box-container .box img{
+    height:15rem;
+    width: 15rem;
+    margin:1rem 0;
+}
+.accessories .box-container .box h3{
+    color:var(--black);
+    font-size: 2.1rem;
+}
+.accessories .btn{
+    width: 220px;
+    padding: 5px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 2px solid #192a56;;
+    background:#192a56; ;
+    color:#fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+.accessories .btn:hover{
+    border: 2px solid #fff;
 }
