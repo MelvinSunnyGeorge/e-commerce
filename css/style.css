@@ -772,3 +772,88 @@ header .icons a:hover{
 .accessories .btn:hover{
     border: 2px solid #fff;
 }
+
+
+
+/* ----------------               CONTACT PAGE               --------------- */
+.contactpage{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+}
+.contactpage h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin: 20px auto 20px;
+    text-align: center;
+}
+.contactpage form{
+    max-width:60rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:.1rem solid rgba(0,0,0,.2);
+    background:#fff;
+    padding:1.5rem;
+    margin:0 auto;
+    height: 550px;
+}
+.contactpage form .inputtype{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contactpage form .inputtype .input{
+    width:49%;
+}
+.contactpage form .inputtype .input span{
+    display:block;
+    padding:.5rem 0;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    text-transform: capitalize;
+}
+.contactpage form .inputtype .input input{
+    background:#eee;
+    border-radius: .5rem;
+    padding:.7rem;
+    font-size: 1.1rem;
+    color:var(--black);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width:80%;
+    height: 10px;
+}
+.contactpage form .inputtype .input textarea{
+    background:#eee;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    color:var(--black);
+    text-transform: none;
+    margin-bottom: 1rem;
+    width:890px;
+    height:12rem;
+    resize: none;
+}
+.contactpage form .contactbtn{
+    text-align: center;
+}
+.contactpage form .btn{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fe7250;
+    background:#fe7250 ;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 30px;
+}
+.contactpage form .btn:hover{
+    border: 2px solid #fe7250;
+    background:#c45439 ;
+    color: #fff;
+}
