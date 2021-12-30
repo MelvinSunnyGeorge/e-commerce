@@ -857,3 +857,150 @@ header .icons a:hover{
     background:#c45439 ;
     color: #fff;
 }
+
+
+
+
+/* ----------------               LOGIN PAGE               --------------- */
+.loginpage h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin: 20px auto 40px;
+    text-align: center;
+    color: black;
+}
+.loginpage h3{
+    font-size: 20px;
+    margin: 20px auto 20px;
+    text-align: center;
+}
+.loginpage a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.loginpage a:hover{
+    color:black;
+    text-decoration: bold;
+}
+.formbox{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #eee;
+    text-align: center;
+    border-radius: 20px;
+}
+.formbox input[type ="text"], .formbox input[type ="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 25px;
+    transition: .25s;
+}
+.formbox input[type ="text"]:focus, .formbox input[type ="password"]:focus{
+    width: 250px;
+    border-color:#27ae60;
+}
+.formbox input[type ="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    outline: none;
+    color: gray;
+    border-radius: 25px;
+    transition: .25s;
+    cursor: pointer;
+}
+.formbox input[type ="submit"]:hover{
+    background-color: #27ae60;
+    color: white;
+}
+
+
+
+
+/* ----------------               LOGIN PAGE               --------------- */
+.registerpage h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin: 20px auto 40px;
+    text-align: center;
+    color: black;
+}
+.registerpage h3{
+    font-size: 20px;
+    margin: 20px auto 20px;
+    text-align: center;
+}
+.registerpage a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.registerpage a:hover{
+    color:black;
+    text-decoration: bold;
+}
+.registerpage .formbox{
+    width: 600px;
+    height: 650px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #eee;
+    text-align: center;
+    border-radius: 20px;
+}
+ .formbox input[type ="text"], .formbox input[type ="password"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: black;
+    border-radius: 25px;
+    transition: .25s;
+}
+.formbox input[type ="text"]:focus, .formbox input[type ="password"]:focus{
+    width: 250px;
+    border-color:#27ae60;
+}
+.formbox input[type ="submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 40px;
+    outline: none;
+    color: gray;
+    border-radius: 25px;
+    transition: .25s;
+    cursor: pointer;
+}
+.formbox input[type ="submit"]:hover{
+    background-color: #27ae60;
+    color: white;
+}
